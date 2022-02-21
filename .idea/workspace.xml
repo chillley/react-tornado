@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ea028d9-5b11-4407-84c7-81389e5ed24e" name="变更" comment="添加路由跳转基本示例">
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/main/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5ea028d9-5b11-4407-84c7-81389e5ed24e" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/service/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +45,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="D:\work\github-project\react-tornado\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,7 +82,11 @@
       <workItem from="1644300355760" duration="1535000" />
       <workItem from="1644480576346" duration="9570000" />
       <workItem from="1644543347887" duration="560000" />
-      <workItem from="1644544186417" duration="106000" />
+      <workItem from="1644544186417" duration="295000" />
+      <workItem from="1645003820533" duration="2663000" />
+      <workItem from="1645061551222" duration="5272000" />
+      <workItem from="1645429628022" duration="88000" />
+      <workItem from="1645429769916" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="add arco-design">
       <created>1643018303078</created>
@@ -93,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643018303078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic example of adding route hops">
+      <created>1644544336325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644544336325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add arco-design" />
-    <option name="LAST_COMMIT_MESSAGE" value="add arco-design" />
+    <MESSAGE value="basic example of adding route hops" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic example of adding route hops" />
   </component>
 </project>
