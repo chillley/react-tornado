@@ -7,6 +7,7 @@ export default function main() {
         count++
         setCount(count)
     }
+
     return (
         <div className={'main'}>
             <p>{count}</p>
@@ -15,3 +16,4 @@ export default function main() {
     )
 
 }
+

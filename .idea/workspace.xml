@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea028d9-5b11-4407-84c7-81389e5ed24e" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/service/axios.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="4" />
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,19 +39,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="ts.external.directory.path" value="D:\work\github-project\react-tornado\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/work/github-project/react-tornado",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\work\\github-project\\react-tornado\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\github-project\react-tornado\src" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -66,6 +78,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +99,10 @@
       <workItem from="1645003820533" duration="2663000" />
       <workItem from="1645061551222" duration="5272000" />
       <workItem from="1645429628022" duration="88000" />
-      <workItem from="1645429769916" duration="295000" />
+      <workItem from="1645429769916" duration="1735000" />
+      <workItem from="1645694503036" duration="3108000" />
+      <workItem from="1646639881916" duration="918000" />
+      <workItem from="1655342891871" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="add arco-design">
       <created>1643018303078</created>
@@ -102,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644544336325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add axios">
+      <created>1645430114966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645430114967</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add arco-design" />
     <MESSAGE value="basic example of adding route hops" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic example of adding route hops" />
+    <MESSAGE value="add axios" />
+    <option name="LAST_COMMIT_MESSAGE" value="add axios" />
   </component>
 </project>

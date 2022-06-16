@@ -5,7 +5,6 @@ import {Link, BrowserRouter, Switch, Route} from 'react-router-dom'
 
 
 export default function App() {
-    console.log(routes.map(route => <Route key={route.key} path={route.path} component={route.component}/>))
     return (
         <div className="App">
             <BrowserRouter>
